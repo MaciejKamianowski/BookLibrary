@@ -1,7 +1,7 @@
 CREATE DATABASE  IF NOT EXISTS `book-library`;
 USE `book-library`;
 --
--- Table structure for tables `student` and `image`
+-- Table structure for table 'book'
 --
 DROP TABLE IF EXISTS `book`;
 

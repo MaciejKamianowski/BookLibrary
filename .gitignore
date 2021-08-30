@@ -3,3 +3,4 @@ target/
 .project
 .settings/
 pass.txt
+src/main/resources/hibernate.cfg.xml
