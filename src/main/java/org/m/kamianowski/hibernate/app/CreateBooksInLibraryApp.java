@@ -3,7 +3,6 @@ package org.m.kamianowski.hibernate.app;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-import org.m.kamianowski.hibernate.demo.entity.Student;
 import org.m.kamianowski.hibernate.entity.Book;
 
 public class CreateBooksInLibraryApp {
@@ -22,7 +21,7 @@ public class CreateBooksInLibraryApp {
 			session.beginTransaction();
 
 			// save the object
-			System.out.println("Saving student and the images");
+			System.out.println("Saving book");
 			session.persist(tempBook);
 
 			// commit the transaction
